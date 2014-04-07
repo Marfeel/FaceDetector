@@ -1,0 +1,15 @@
+target
+bin
+build/.sass-cache
+.idea/libraries
+.idea/workspace.xml
+*/*.iml
+
+*/target
+*/bin
+
+######################
+# OS generated files #
+######################
+.DS_Store*
+
