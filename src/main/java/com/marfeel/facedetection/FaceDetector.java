@@ -52,7 +52,7 @@ public class FaceDetector {
                 }
             }
 
-            String outputfilename = i.toString()+".ouput.jpg";
+            String outputfilename = "results/"+i.toString()+".ouput.jpg";
             System.out.println(String.format("Writing %s", outputfilename));
             Highgui.imwrite(outputfilename, image);
 
